@@ -4,13 +4,13 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>Salut <%= @attendance.user.first_name.capitalize %> tu a rejoint l'évènement <%=@attendance.title.capitalize%> !</h1>
+    <h1>Salut <%= @attendance.user.first_name.capitalize %> Tu as rejoint l'évent <%=@attendance.title.capitalize%> !</h1>
     <p>
       La date prévue est le <%=@attendance.start_date%> pour une durée du <%=@attendance.duration%> min
     </p>
     <p>
-      Pour accéder à ton espace client, connecte-toi via : <%= @url %>.
+      Pour accéder à ton espace client, connecte-toi ici : <%= @url %>.
     </p>
-    <p> À très vite sur monsite.fr !
+    <p> À très vite sur EvenTHP.fr !
   </body>
 </html>
